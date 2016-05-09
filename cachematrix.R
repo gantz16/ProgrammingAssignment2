@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is an R function that is able to cache potentially time-consuming computations
 
-## Write a short comment describing this function
+## makeCacheMatrix creates a special "vector", which is really a list containing a function
 
 makeCacheMatrix <- function(x = matrix()) {
 	    m <- NULL
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve calculates the mean of the special "vector" created with makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
